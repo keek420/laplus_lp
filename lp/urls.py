@@ -6,5 +6,5 @@ from . import views
 
 app_name = "lp"
 urlpatterns = [
-    path("", views.TopView.as_view())
+    path("", views.TopView.as_view(),name = "top")
 ]
