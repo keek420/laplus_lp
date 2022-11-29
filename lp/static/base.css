@@ -1,0 +1,10 @@
+.header-background{
+    background: rgba(0,0,0,0.7);
+}
+.navbar-brand{
+    color: rgb(223, 223, 223)
+}
+.nav-link{
+    color: aliceblue !important;
+    border-bottom-color: aliceblue !important;
+}
