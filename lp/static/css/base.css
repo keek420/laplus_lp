@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: aqua;
+}
+
+img{
+    height:50px;
+    width: 50px;
+    margin: 10px 10px;
+}
+
+.nav-item{
+    transition-duration: 0.5s;
+}
+.nav-item:hover{
+   box-shadow: 0 2px 5px black;
+   transform: translate(0, -2px);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}

@@ -6,6 +6,5 @@ from django.views import generic
 
 
 class TopView(generic.TemplateView):
-    template_name = "template/top.html"
-
+    template_name = "top.html"
 

@@ -5,6 +5,7 @@
     color: rgb(223, 223, 223)
 }
 .nav-link{
-    color: aliceblue !important;
-    border-bottom-color: aliceblue !important;
+    color: aliceblue;
+    border-bottom-color: aliceblue ;
 }
+
