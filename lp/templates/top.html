@@ -1,8 +1,16 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block title}top{% endblock}
+{% block title %}top-page{% endblock %}
 
 {% block content %}
-home.html
+<section>
+<div class="">
+<img  src="{% static 'image\sample.jpg' %}" alt = "ロゴ画像" class="img-fluid position-relative">
+<h1 id ="motto" class="position-relative " >nannkaiikanjinoo
+    <br>nooooo
+</h1>
+</div>
+</section>
 
 {% endblock %}

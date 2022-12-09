@@ -3,15 +3,9 @@
     padding:0;
 }
 
-body{
-    background-color: aqua;
-}
 
-img{
-    height:50px;
-    width: 50px;
-    margin: 10px 10px;
-}
+
+
 
 .nav-item{
     transition-duration: 0.5s;
@@ -20,8 +14,14 @@ img{
    box-shadow: 0 2px 5px black;
    transform: translate(0, -2px);
 }
+#base_img{
+    height:50px;
+    width: 50px;
+    margin: 10px 10px;
+}
+
+
 
 footer{
-    position: fixed;
-    bottom: 0;
+    background-color:#192F60;
 }
